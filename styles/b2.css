@@ -1,0 +1,25 @@
+ .gs{
+        background-color: rgb(121,82,179);
+        color: white;
+        font-weight: bold;
+        font-size:  12px;
+        border-style: solid;
+        border: none;
+        height: 40px;
+        width: 105px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .dl{
+        background-color: white;
+        color: rgb(108,117,125);
+        font-weight: bold;
+        font-size:  12px;
+        border-style: solid;
+        height: 40px;
+        width: 105px;
+        border-radius: 4px;
+        cursor: pointer;
+        border-width: 1.5px;
+    }
