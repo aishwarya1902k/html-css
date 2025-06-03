@@ -1,0 +1,49 @@
+a{
+        color: rgb(0,113,133)
+    }
+    a:hover{
+        color: rgb(255, 64, 0)
+    }
+
+    .shoes{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .instock{
+        color: rgb(0,118,0)
+    }
+
+    .atc{
+        background-color: rgb(255,216,20);
+        color: black;
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight:450;
+        cursor: pointer;
+
+
+    }
+    .atc:active{
+        background-color: rgb(255, 204, 0);
+        opacity: 0.75px;
+    }
+
+    .bn{
+        background-color: rgb(255,164,28);
+        color: black;
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight:450;
+        cursor: pointer;
+    }
+    .bn:active{
+        background-color: rgb(214, 125, 0);
+        opacity: 1px;
+    }

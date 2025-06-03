@@ -1,0 +1,49 @@
+.uber{
+        background-color: black;
+        border : none;
+        color: white;
+        height: 50px;
+        width: 110px;
+        border-style: solid;
+        cursor: pointer;  
+        transition: 0.15s;
+    }
+    .uber:hover{
+        background-color: rgb(58, 55, 55);
+        opacity: 0.38px;
+
+    }
+
+
+    .amazon{
+        background-color: rgb(255, 216, 20);
+        color: black;
+        height: 40px;
+        width: 185px;
+        border-style: solid;
+        border: none;
+        border-radius: 20px;
+        font-size: 13.2px;
+        transition: 0.15s;
+        
+    }
+    .amazon:hover{
+        background-color: rgb(254, 195, 0);
+    }
+
+    .git{
+        background-color: rgb(46,164,79);
+        color: white;
+        height: 50px;
+        width: 105;
+        border: none;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: bold;
+        transition: box-shadow 0.15s;
+        
+    }
+    .git:hover{
+        box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.224);
+
+    }
