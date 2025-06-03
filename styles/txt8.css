@@ -1,0 +1,13 @@
+.h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Monteserrat;
+}
+.h2{
+    font-size: 14px;
+    text-align: center;
+}
+.td{
+    text-decoration: underline;
+}
