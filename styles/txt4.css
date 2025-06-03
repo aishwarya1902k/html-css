@@ -1,0 +1,16 @@
+p{
+        font-family: Arial;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .h2{
+        font-size: 13px;
+    }
+    .h3{
+        color: rgb(0, 98, 159);
+        font-size: 13px;
+    }
