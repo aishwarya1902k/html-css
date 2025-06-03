@@ -1,0 +1,13 @@
+
+    .stretch{
+        padding: 15px 25px;
+        font-size: 15px;
+        background-color: green;
+        color: white;
+        border:none;
+        transition: padding 1s;
+        cursor: pointer;
+    }
+    .stretch:hover{
+        padding: 20px 30px;
+    }
