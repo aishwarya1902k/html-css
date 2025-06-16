@@ -1,0 +1,12 @@
+.para{
+        width: 180px;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+                
+.yes,.no{
+    display:inline-block;
+    vertical-align: middle;
+     }
+            
