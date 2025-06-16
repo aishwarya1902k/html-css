@@ -1,0 +1,41 @@
+
+            .google{
+                width:500px;
+                height:250px;
+              
+                margin-top: 100px;
+                margin-bottom: 0px;
+            }
+            .search-bar{
+                text-align: center;
+            }
+            .g-img{
+                text-align: center;
+            }
+            .txt-box{
+                width: 500px;
+                height: 45px;
+                margin-right: 400px;
+                margin-left: 400px;
+                margin-top: 0px;
+                border-radius: 30px;
+                border: none;
+                box-shadow: 1px 3px 5px 2px rgb(96,96,96,0.6);
+                padding-left: 4px;
+                
+            }
+            .gs,.ifl{
+                
+                width: 150px;
+                height: 30px;
+                margin-top: 10px;
+                display: inline-block;
+                border:none;
+
+            }
+            .buttons-sec{
+                text-align: center;
+                margin-top: 10px;
+            }
+
+       

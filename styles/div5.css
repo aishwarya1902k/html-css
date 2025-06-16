@@ -1,0 +1,60 @@
+
+
+                .kathy-prof{
+                    box-shadow: 0.2px 2px 2px 2px grey;
+                    width:350px;
+                    height: 450px;
+                    margin-left: 50px;
+                    margin-top:30px;
+                }
+
+                .kathy-pic{
+                    width:250px;
+                    margin-left: 50px;
+                    margin-top:30px;
+                    display: inline-block;
+                }
+
+                .prof-details{
+                    margin-left: 50px;
+                    margin-top:30px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    
+                }
+
+                .name{
+                    font-family: Arial;
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    width:250px;
+                    display:block;
+                }
+                .mutuals{
+                    font-family: Arial;
+                    font-size: 12px;
+                    color: grey;
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    display: block;
+
+                }
+                .add-frnd{
+                    margin-top: 5px;
+                    font-family: Arial;
+                    background-color: rgb(0, 106, 255);
+                    padding: 8px 8px;
+                    color: white;
+                    border: none;
+                    border-radius: 3px;
+                    display: inline-block;
+                }
+
+                .prof-pic{
+                    width:250px;
+                    display: inline-block;
+                }
+
+            

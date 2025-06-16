@@ -1,0 +1,24 @@
+.ytm{ 
+    background-color: rgb(41, 40, 40);
+    width:350px;
+    height:150px;
+    border:none;
+        
+}
+.h1{
+    font-size:25px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 6px;
+    border:none;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.h2{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(182, 180, 180);
+    width:310px;
+    margin-left: 15px;
+}
