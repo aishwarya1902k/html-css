@@ -30,14 +30,9 @@
                 margin-bottom: 12px;
             }
 
-            .vdo-prev{
-                display: inline-block;
-                vertical-align: top;
-                margin-right: 10px;
-                display: inline-block;
-            }
+            
             .thumbnail{
-             width: 300px;
+             width: 100%;
             }
           
 
@@ -61,66 +56,184 @@
                 display: inline-block;
                 width:200px;
             }
-            .ch-pic{
+
+            .vdo-info-grid{
+                display:grid;
+                grid-template-columns: 50px 1fr ;
+
+            }    
+
+            .ch-pic{ 
                 width:40px;
                 border-radius:50px;
             }
             .thumbnail-row{
                 margin-bottom: 12px;
             }
+               
+            .vdo-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
+            }
+
+
           
         </style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search">
+<div class="vdo-grid">
 
-        <div class="vdo-prev">
-            <div>
-                <img class="thumbnail" src="/yt-pics/img-thumbnail-1.webp">
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/img-thumbnail-1.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-1.jpeg">
             </div>
 
-            <div>
-                <div class="channel-pic">
-                    <img class="ch-pic" src="/yt-pics/ch-1.jpeg">
-                </div>
-
-                <div class="vdo-info">
-                    <div class="thumbnail-row">
+            <div class="vdo-info">
+                <div class="thumbnail-row">
                     <p class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                    </div>
-
-                    <p class="video-auth" >Marques Brownlee</p>
-                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
-                </div>
-                
-            </div>
-        </div> 
-            
-
-
-          <div class="vdo-prev">
-            <div>
-                <img class="thumbnail" src="/yt-pics/thumbnail-2.webp">
-            </div>
-
-            <div>
-                <div class="channel-pic">
-                    <img class="ch-pic" src="/yt-pics/ch-2.jpeg">
                 </div>
 
-                <div class="vdo-info">
-                    <div class="thumbnail-row">
+                <p class="video-auth">Marques Brownlee</p>
+                <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/thumbnail-2.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-2.jpeg">
+            </div>
+
+            <div class="vdo-info">
+                <div class="thumbnail-row">
                     <p class="video-title">Try Not To Laugh</p>
-                    </div>
-
-                    <p class="video-auth" >Markiplier</p>
-                    <p class="video-stats">19M views &#183; 4 years ago</p>
                 </div>
-                
+
+                <p class="video-auth">Markiplier</p>
+                <p class="video-stats">19M views &#183; 4 years ago</p>
             </div>
-        </div> 
-           
-            
+
+        </div>
+    </div>
+
+
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/thumbnail-3.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-3.jpeg">
+            </div>
+
+            <div class="vdo-info">
+                <div class="thumbnail-row">
+                    <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                </div>
+
+                <p class="video-auth">SSSniperWolf</p>
+                <p class="video-stats">12M views &#183; 1 year ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/thumbnail-4.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-4.jpeg">
+            </div>
+
+            <div class="vdo-info">
+                <div class="thumbnail-row">
+                    <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                </div>
+
+                <p class="video-auth">Veritasium</p>
+                <p class="video-stats">18M views &#183; 4 months ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/thumbnail-5.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-5">
+            </div>
+
+            <div class="vdo-info">
+
+                <div class="thumbnail-row">
+                    <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                </div>
+
+                <p class="video-auth">CS Dojo</p>
+                <p class="video-stats">519K views &#183; 5 years ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="vdo-prev">
+        <div>
+            <img class="thumbnail" src="/yt-pics/thumbnail-6.webp">
+        </div>
+
+        <div class="vdo-info-grid">
+            <div class="channel-pic">
+                <img class="ch-pic" src="/yt-pics/ch-6.jpeg">
+            </div>
+
+            <div class="vdo-info">
+                <div class="thumbnail-row">
+                    <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For/p>
+                </div>
+
+                <p class="video-auth">MrBeast</p>
+                <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+          
         
     </body>
 </html>
